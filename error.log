@@ -1,0 +1,27 @@
+Error Message: Request failed with status code 404
+Status: 404
+Data: {
+  "error": {
+    "message": "Provider returned error",
+    "code": 404,
+    "metadata": {
+      "raw": "No matching route found. It is likely because the model specified in your request is not configured in the Gateway.",
+      "provider_name": "ModelRun",
+      "is_byok": false
+    }
+  },
+  "user_id": "user_38pDSniqurWAOFMBd6n4OR1oKWH"
+}
+Headers: {
+  "date": "Sun, 01 Feb 2026 12:17:56 GMT",
+  "content-type": "application/json",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "access-control-allow-origin": "*",
+  "vary": "Accept-Encoding",
+  "permissions-policy": "payment=(self \"https://checkout.stripe.com\" \"https://connect-js.stripe.com\" \"https://js.stripe.com\" \"https://*.js.stripe.com\" \"https://hooks.stripe.com\")",
+  "referrer-policy": "no-referrer, strict-origin-when-cross-origin",
+  "x-content-type-options": "nosniff",
+  "server": "cloudflare",
+  "cf-ray": "9c716369afe67ec4-MAA"
+}
